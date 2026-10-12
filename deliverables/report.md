@@ -88,8 +88,8 @@ Ledger version `ledger-2026-08-11-v2` matches the source owner's completeness st
 
 | Role | Spreadsheet | Tab | URL | Fetched (UTC) | Source version(s) | Rows |
 |---|---|---|---|---|---|---:|
-| transactions | Project 1 Financial Health Brief — Transaction Ledger (`16HhjfR9uG1oUwSFNjQvAvU9Q9gVjzxL0ufBzTJe82v8`) | Transaction ledger | https://docs.google.com/spreadsheets/d/16HhjfR9uG1oUwSFNjQvAvU9Q9gVjzxL0ufBzTJe82v8 | 2026-10-12T19:03:51Z | ledger-2026-08-11-v2 | 70 |
-| budget | Project 1 Financial Health Brief — Budget Targets (`1pnHBrxWvZBDIQItyxhmaSUZBxF8VMYqo_fyN7JtgyA4`) | Budget targets | https://docs.google.com/spreadsheets/d/1pnHBrxWvZBDIQItyxhmaSUZBxF8VMYqo_fyN7JtgyA4 | 2026-10-12T19:03:52Z | budget-2026-08-v3 | 10 |
-| revenue | Project 1 Financial Health Brief — Revenue Snapshot (`1DToTpZtuwtVIdCPethZRe4T-y6mxGpWuivWSmR2XZt4`) | Revenue snapshot | https://docs.google.com/spreadsheets/d/1DToTpZtuwtVIdCPethZRe4T-y6mxGpWuivWSmR2XZt4 | 2026-10-12T19:03:52Z | revenue-2026-08-03-v1, revenue-2026-08-05-v1, revenue-2026-08-07-v1, revenue-2026-08-10-v1, revenue-2026-08-11-v2 | 25 |
+| transactions | Project 1 Financial Health Brief — Transaction Ledger (`16HhjfR9uG1oUwSFNjQvAvU9Q9gVjzxL0ufBzTJe82v8`) | Transaction ledger | https://docs.google.com/spreadsheets/d/16HhjfR9uG1oUwSFNjQvAvU9Q9gVjzxL0ufBzTJe82v8 | 2026-10-12T19:06:18Z | ledger-2026-08-11-v2 | 70 |
+| budget | Project 1 Financial Health Brief — Budget Targets (`1pnHBrxWvZBDIQItyxhmaSUZBxF8VMYqo_fyN7JtgyA4`) | Budget targets | https://docs.google.com/spreadsheets/d/1pnHBrxWvZBDIQItyxhmaSUZBxF8VMYqo_fyN7JtgyA4 | 2026-10-12T19:06:18Z | budget-2026-08-v3 | 10 |
+| revenue | Project 1 Financial Health Brief — Revenue Snapshot (`1DToTpZtuwtVIdCPethZRe4T-y6mxGpWuivWSmR2XZt4`) | Revenue snapshot | https://docs.google.com/spreadsheets/d/1DToTpZtuwtVIdCPethZRe4T-y6mxGpWuivWSmR2XZt4 | 2026-10-12T19:06:19Z | revenue-2026-08-03-v1, revenue-2026-08-05-v1, revenue-2026-08-07-v1, revenue-2026-08-10-v1, revenue-2026-08-11-v2 | 25 |
 
 Normalized copies of every source row: `deliverables/normalized/transactions.csv`, `budget.csv`, `revenue.csv`.
