@@ -24,3 +24,24 @@ Create the Skill, implementation and outputs described in the formal assignment.
 - Use an Agent Skills-capable coding environment. Choose and document your implementation runtime and dependencies; no runtime or install command is supplied here.
 - Follow the [shared course guide for session capture](https://classroom.google.com/c/ODcyMjA4NTkwNDk2/m/ODc0NzI2NzQzMzQ2/details) and verify capture is active before implementation. Keep credentials out of the repository.
 - Meet the [stakeholder](https://work-sim.catalyte.ai/s/interview-r62mbg) to understand the work and relevant business sources. Read those online sources through their intended access route; an unavailable source is not permission to substitute repository data.
+
+## This submission
+
+| Path | What it is |
+|---|---|
+| `interviews/` | Original Work Sim Markdown export of the stakeholder interview |
+| `daily-financial-health-brief/` | The Skill: `SKILL.md`, `scripts/run_brief.py`, `references/` |
+| `deliverables/report.md` | The brief for the 2026-08-11 reporting date |
+| `deliverables/normalized/` | `transactions.csv`, `budget.csv`, `revenue.csv` |
+
+Runtime: Python 3.10+, standard library only. Reproduce the deliverables from the skill folder:
+
+```
+cd daily-financial-health-brief
+python scripts/run_brief.py \
+  --source https://docs.google.com/spreadsheets/d/16HhjfR9uG1oUwSFNjQvAvU9Q9gVjzxL0ufBzTJe82v8 \
+  --source https://docs.google.com/spreadsheets/d/1pnHBrxWvZBDIQItyxhmaSUZBxF8VMYqo_fyN7JtgyA4 \
+  --source https://docs.google.com/spreadsheets/d/1DToTpZtuwtVIdCPethZRe4T-y6mxGpWuivWSmR2XZt4 \
+  --reporting-date 2026-08-11 --prior-business-date 2026-08-10 \
+  --attested-ledger-version ledger-2026-08-11-v2
+```
